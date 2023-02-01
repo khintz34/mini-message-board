@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <title></title>
+  </head>
+  <body>
+    <div class="board-container new-message">
+      <header>
+        <h1>Want to join the party?</h1>
+      </header>
+      <section class="form-section">
+        <h2>Add your name and message below</h2>
+        <form method="POST" action="/new" class="message-form">
+          <!-- <label for="userName">Name</label> -->
+          <input type="text" id="userName" placeholder="Name" name="userName" />
+          <br />
+          <!-- <label for="userMessage">Message</label> -->
+          <textarea
+            id="userMessage"
+            placeholder="Message"
+            cols="30"
+            rows="5"
+            name="userMessage"
+          ></textarea>
+          <br />
+          <button type="submit" class="a-button">Add Message</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

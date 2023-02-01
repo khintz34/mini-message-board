@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+}
+
+/* ! Message board */
+
+.board-container {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  text-align: center;
+  gap: 2vh;
+}
+
+.message-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.message-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.message-layout {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 20vw;
+  min-height: 6vh;
+  gap: 2vh;
+  padding: 1vh;
+}
+
+.message-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.message-text {
+  text-align: left;
+}
+
+.message-date {
+  margin-left: auto;
+}
+
+.a-button {
+  width: 15vw;
+  height: 5vh;
+  font-size: 2vh;
+  border-radius: 20px;
+  font-weight: bolder;
+  background-color: aquamarine;
+}
+
+/* ! NEW MESSAGE*/
+
+.new-message {
+  margin-left: 25vw;
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid black;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}
+
+.form-button {
+  width: 20vw;
+}
